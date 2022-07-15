@@ -1,0 +1,5 @@
+name=(input("What is your name? "))
+day=int(input("What day were you born? "))
+month=(input("What month were you born? "))
+year=int(input("What year were you born? "))
+print("Hello {}, you were born on the day {} of the month {} and year {}.".format(name, day, month, year))
